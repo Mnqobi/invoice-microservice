@@ -39,6 +39,6 @@ public class Invoice {
 
     @Temporal(TemporalType.TIMESTAMP)
     @NotNull
-    @ApiModelProperty(notes = "Date of invoice", example = "2018-10-02T01:53:07.353+0000", position = 4)
+    @ApiModelProperty(notes = "Date of invoice", required = true, example = "2018-10-02T01:53:07.353+0000", position = 4)
     private Date invoiceDate;
 }
